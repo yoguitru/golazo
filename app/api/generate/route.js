@@ -2,7 +2,7 @@ import { NextResponse } from 'next/server'
 import { v4 as uuidv4 } from 'uuid'
 
 const RUNWARE_API_KEY = process.env.RUNWARE_API_KEY
-const OZIL_BASE_VIDEO_URL = process.env.OZIL_BASE_VIDEO_URL || "https://example.com/ozil-goal-base.mp4"
+const OZIL_BASE_VIDEO_URL = process.env.OZIL_BASE_VIDEO_URL || "https://pub-d32207fa9a73400ca3dd385d6d72f436.r2.dev/golaco.mp4"
 
 export async function POST(req) {
   try {
